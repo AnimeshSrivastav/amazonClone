@@ -3,7 +3,7 @@ const functions = require("firebase-functions");
 const express = require("express");
 const cors = require("cors");
 // eslint-disable-next-line quotes
-const stripe = require("stripe")('sk_test_51MIECKSJhsjQ1ZWQMWnMIxq68jSWRWuMlNC8VuEOIYeF4HzNOgrKqviT010JcwkgXvMH1M70gdHHDwG1XQa7uwHF000vOBpKg0');
+const stripe = require("stripe")('fushkajk');
 
 // API
 
