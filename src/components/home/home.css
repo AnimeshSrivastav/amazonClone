@@ -1,0 +1,19 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* margin: 20px; */
+  max-width: 1500px;
+}
+.home__image {
+  width: 100%;
+  z-index: -1;
+  /* elements can be placed above it */
+  margin-bottom: -150px; 
+  mask-image: linear-gradient(to bottom, rgba(0,0,0,1) , rgba(0,0,0,0));
+}
+
+.home__row{
+  display: flex;
+   justify-content: space-between;
+}

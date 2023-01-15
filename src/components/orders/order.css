@@ -1,0 +1,14 @@
+.order{
+    padding: 40px;
+    margin: 20px 0px;
+    position: relative;
+    background-color: white;
+}
+.order__id{
+    position: absolute;
+    top: 40px;
+    right:20px;
+}
+.order__total{
+    text-align: end;
+}
